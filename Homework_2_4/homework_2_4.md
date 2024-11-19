@@ -8,8 +8,8 @@
 4. **`sudo touch /var/log/my.log`**
 5. **`sudo chmod 644 /var/log/my.log`** 
 6. **`sudo systemctl restart rsyslog`**: Перезапустить rsyslog, чтобы изменения вступили в силу;
-7. **`logger -p user.info "Тестовое сообщение уровня info" `**: Посредством logger отправляем тестовое сообщение уровня info;
-7. **`cat /var/log/my.log" `**: Удостоверилсь, что сообщение отобразилось в файле my.log;
+7. **`logger -p user.info "Тестовое сообщение уровня info"`**: Посредством logger отправляем тестовое сообщение уровня info;
+7. **`cat /var/log/my.log"`**: Удостоверились, что сообщение отобразилось в файле my.log;
  
 ```bash
 root@Zero etc]# sudo nano /etc/rsyslog.conf
