@@ -48,7 +48,7 @@ if $programname == 'sshd' then /var/log/ssh.log
 - postrotate: Перезагружать службу SSH после ротации, чтобы она продолжала корректно записывать логи.
 5. **`sudo sshd -t`**: Проверка конфигурацию на наличие ошибок, если ошибок нет, никаких сообщений не будет; 
 6. **`sudo systemctl restart sshd`**: Перезапустить службу SSH, чтобы изменения вступили в силу; 
-7. **`Файл логов /var/log/ssh.lod`**: Если файл /var/log/ssh.log еще не существует, создайть его и установить нужные доступа; 
+7. **`Файл логов /var/log/ssh.lod`**: Если файл /var/log/ssh.log еще не существует, создать его и установить нужные доступа; 
 ```bash
 sudo touch /var/log/ssh.log
 sudo chown root:adm /var/log/ssh.log
@@ -85,7 +85,7 @@ Nov 19 22:22:37 Zero sshd[17735]: pam_unix(sshd:session): session opened for use
 	- ssh.log — текущий файл логов
 	- ssh.log.1 — последний ротированный файл
 	- ssh.log.1.gz — сжатый файл, если сжатие настроено
-3. **`zcat /var/log/ssh.log.1.gz | less*`**: Команда выводитсодержимое сжатого файла без его распаковки.
+3. **`zcat /var/log/ssh.log.1.gz | less*`**: Команда выводит содержимое сжатого файла без его распаковки.
 
 ```bash
 [root@Zero log]# sudo logrotate -f /etc/logrotate.d/ssh
