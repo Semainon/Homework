@@ -1,0 +1,179 @@
+-- Logs begin at Sat 2024-11-16 09:42:40 UTC, end at Tue 2024-11-19 23:29:41 UTC. --
+Nov 19 22:36:59 Zero.local sudo[17773]:     root : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/sbin/logrotate -f /etc/logrotate.d/ssh
+Nov 19 22:36:59 Zero.local sudo[17773]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 19 22:36:59 Zero.local sudo[17773]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 19 22:36:59 Zero.local systemd[1]: Reloading OpenSSH server daemon.
+Nov 19 22:36:59 Zero.local sshd[17375]: Received SIGHUP; restarting.
+Nov 19 22:36:59 Zero.local systemd[1]: Reloaded OpenSSH server daemon.
+Nov 19 22:36:59 Zero.local sshd[17375]: Server listening on 0.0.0.0 port 22.
+Nov 19 22:36:59 Zero.local sudo[17773]: pam_unix(sudo:session): session closed for user root
+Nov 19 22:42:34 Zero.local sshd[17785]: error: maximum authentication attempts exceeded for root from 121.160.175.134 port 38032 ssh2 [preauth]
+Nov 19 22:42:34 Zero.local sshd[17785]: Disconnecting authenticating user root 121.160.175.134 port 38032: Too many authentication failures [preauth]
+Nov 19 22:42:40 Zero.local sshd[17788]: error: maximum authentication attempts exceeded for root from 121.160.175.134 port 39226 ssh2 [preauth]
+Nov 19 22:42:40 Zero.local sshd[17788]: Disconnecting authenticating user root 121.160.175.134 port 39226: Too many authentication failures [preauth]
+Nov 19 22:42:46 Zero.local sshd[17791]: error: maximum authentication attempts exceeded for root from 121.160.175.134 port 40438 ssh2 [preauth]
+Nov 19 22:42:46 Zero.local sshd[17791]: Disconnecting authenticating user root 121.160.175.134 port 40438: Too many authentication failures [preauth]
+Nov 19 22:42:52 Zero.local sshd[17794]: Received disconnect from 121.160.175.134 port 41562:11: disconnected by user [preauth]
+Nov 19 22:42:52 Zero.local sshd[17794]: Disconnected from authenticating user root 121.160.175.134 port 41562 [preauth]
+Nov 19 22:42:57 Zero.local sshd[17798]: Invalid user admin from 121.160.175.134 port 42708
+Nov 19 22:42:58 Zero.local sshd[17798]: error: maximum authentication attempts exceeded for invalid user admin from 121.160.175.134 port 42708 ssh2 [preauth]
+Nov 19 22:42:58 Zero.local sshd[17798]: Disconnecting invalid user admin 121.160.175.134 port 42708: Too many authentication failures [preauth]
+Nov 19 22:43:03 Zero.local sshd[17801]: Invalid user admin from 121.160.175.134 port 43786
+Nov 19 22:43:04 Zero.local sshd[17801]: error: maximum authentication attempts exceeded for invalid user admin from 121.160.175.134 port 43786 ssh2 [preauth]
+Nov 19 22:43:04 Zero.local sshd[17801]: Disconnecting invalid user admin 121.160.175.134 port 43786: Too many authentication failures [preauth]
+Nov 19 22:43:09 Zero.local sshd[17804]: Invalid user admin from 121.160.175.134 port 44956
+Nov 19 22:43:10 Zero.local sshd[17804]: Received disconnect from 121.160.175.134 port 44956:11: disconnected by user [preauth]
+Nov 19 22:43:10 Zero.local sshd[17804]: Disconnected from invalid user admin 121.160.175.134 port 44956 [preauth]
+Nov 19 22:43:14 Zero.local sshd[17809]: Invalid user oracle from 121.160.175.134 port 46052
+Nov 19 22:43:15 Zero.local sshd[17809]: error: maximum authentication attempts exceeded for invalid user oracle from 121.160.175.134 port 46052 ssh2 [preauth]
+Nov 19 22:43:15 Zero.local sshd[17809]: Disconnecting invalid user oracle 121.160.175.134 port 46052: Too many authentication failures [preauth]
+Nov 19 22:43:18 Zero.local sshd[17813]: Invalid user oracle from 121.160.175.134 port 46974
+Nov 19 22:43:19 Zero.local sshd[17813]: error: maximum authentication attempts exceeded for invalid user oracle from 121.160.175.134 port 46974 ssh2 [preauth]
+Nov 19 22:43:19 Zero.local sshd[17813]: Disconnecting invalid user oracle 121.160.175.134 port 46974: Too many authentication failures [preauth]
+Nov 19 22:43:23 Zero.local sshd[17816]: Invalid user oracle from 121.160.175.134 port 47692
+Nov 19 22:43:23 Zero.local sshd[17816]: Received disconnect from 121.160.175.134 port 47692:11: disconnected by user [preauth]
+Nov 19 22:43:23 Zero.local sshd[17816]: Disconnected from invalid user oracle 121.160.175.134 port 47692 [preauth]
+Nov 19 22:43:28 Zero.local sshd[17819]: Invalid user usuario from 121.160.175.134 port 48640
+Nov 19 22:43:29 Zero.local sshd[17819]: error: maximum authentication attempts exceeded for invalid user usuario from 121.160.175.134 port 48640 ssh2 [preauth]
+Nov 19 22:43:29 Zero.local sshd[17819]: Disconnecting invalid user usuario 121.160.175.134 port 48640: Too many authentication failures [preauth]
+Nov 19 22:43:33 Zero.local sshd[17822]: Invalid user usuario from 121.160.175.134 port 49724
+Nov 19 22:43:34 Zero.local sshd[17822]: error: maximum authentication attempts exceeded for invalid user usuario from 121.160.175.134 port 49724 ssh2 [preauth]
+Nov 19 22:43:34 Zero.local sshd[17822]: Disconnecting invalid user usuario 121.160.175.134 port 49724: Too many authentication failures [preauth]
+Nov 19 22:43:39 Zero.local sshd[17825]: Invalid user usuario from 121.160.175.134 port 50680
+Nov 19 22:43:40 Zero.local sshd[17825]: Received disconnect from 121.160.175.134 port 50680:11: disconnected by user [preauth]
+Nov 19 22:43:40 Zero.local sshd[17825]: Disconnected from invalid user usuario 121.160.175.134 port 50680 [preauth]
+Nov 19 22:43:44 Zero.local sshd[17828]: Invalid user test from 121.160.175.134 port 51722
+Nov 19 22:43:45 Zero.local sshd[17828]: error: maximum authentication attempts exceeded for invalid user test from 121.160.175.134 port 51722 ssh2 [preauth]
+Nov 19 22:43:45 Zero.local sshd[17828]: Disconnecting invalid user test 121.160.175.134 port 51722: Too many authentication failures [preauth]
+Nov 19 22:43:48 Zero.local sshd[17831]: Invalid user test from 121.160.175.134 port 52666
+Nov 19 22:43:49 Zero.local sshd[17831]: error: maximum authentication attempts exceeded for invalid user test from 121.160.175.134 port 52666 ssh2 [preauth]
+Nov 19 22:43:49 Zero.local sshd[17831]: Disconnecting invalid user test 121.160.175.134 port 52666: Too many authentication failures [preauth]
+Nov 19 22:43:56 Zero.local sshd[17834]: Invalid user test from 121.160.175.134 port 53368
+Nov 19 22:43:57 Zero.local sshd[17834]: Received disconnect from 121.160.175.134 port 53368:11: disconnected by user [preauth]
+Nov 19 22:43:57 Zero.local sshd[17834]: Disconnected from invalid user test 121.160.175.134 port 53368 [preauth]
+Nov 19 22:44:03 Zero.local sshd[17837]: Invalid user user from 121.160.175.134 port 54838
+Nov 19 22:44:04 Zero.local sshd[17837]: error: maximum authentication attempts exceeded for invalid user user from 121.160.175.134 port 54838 ssh2 [preauth]
+Nov 19 22:44:04 Zero.local sshd[17837]: Disconnecting invalid user user 121.160.175.134 port 54838: Too many authentication failures [preauth]
+Nov 19 22:44:08 Zero.local sshd[17840]: Invalid user user from 121.160.175.134 port 56360
+Nov 19 22:44:09 Zero.local sshd[17840]: error: maximum authentication attempts exceeded for invalid user user from 121.160.175.134 port 56360 ssh2 [preauth]
+Nov 19 22:44:09 Zero.local sshd[17840]: Disconnecting invalid user user 121.160.175.134 port 56360: Too many authentication failures [preauth]
+Nov 19 22:44:15 Zero.local sshd[17843]: Invalid user user from 121.160.175.134 port 57288
+Nov 19 22:44:15 Zero.local sshd[17843]: Received disconnect from 121.160.175.134 port 57288:11: disconnected by user [preauth]
+Nov 19 22:44:15 Zero.local sshd[17843]: Disconnected from invalid user user 121.160.175.134 port 57288 [preauth]
+Nov 19 22:44:22 Zero.local sshd[17846]: Invalid user ftpuser from 121.160.175.134 port 58448
+Nov 19 22:44:23 Zero.local sshd[17846]: error: maximum authentication attempts exceeded for invalid user ftpuser from 121.160.175.134 port 58448 ssh2 [preauth]
+Nov 19 22:44:23 Zero.local sshd[17846]: Disconnecting invalid user ftpuser 121.160.175.134 port 58448: Too many authentication failures [preauth]
+Nov 19 22:44:27 Zero.local sshd[17849]: Invalid user ftpuser from 121.160.175.134 port 59944
+Nov 19 22:44:28 Zero.local sshd[17849]: error: maximum authentication attempts exceeded for invalid user ftpuser from 121.160.175.134 port 59944 ssh2 [preauth]
+Nov 19 22:44:28 Zero.local sshd[17849]: Disconnecting invalid user ftpuser 121.160.175.134 port 59944: Too many authentication failures [preauth]
+Nov 19 22:44:35 Zero.local sshd[17852]: Invalid user ftpuser from 121.160.175.134 port 32798
+Nov 19 22:44:36 Zero.local sshd[17852]: Received disconnect from 121.160.175.134 port 32798:11: disconnected by user [preauth]
+Nov 19 22:44:36 Zero.local sshd[17852]: Disconnected from invalid user ftpuser 121.160.175.134 port 32798 [preauth]
+Nov 19 22:44:41 Zero.local sshd[17855]: Invalid user test1 from 121.160.175.134 port 34152
+Nov 19 22:44:42 Zero.local sshd[17855]: error: maximum authentication attempts exceeded for invalid user test1 from 121.160.175.134 port 34152 ssh2 [preauth]
+Nov 19 22:44:42 Zero.local sshd[17855]: Disconnecting invalid user test1 121.160.175.134 port 34152: Too many authentication failures [preauth]
+Nov 19 22:44:47 Zero.local sshd[17858]: Invalid user test1 from 121.160.175.134 port 35308
+Nov 19 22:44:48 Zero.local sshd[17858]: error: maximum authentication attempts exceeded for invalid user test1 from 121.160.175.134 port 35308 ssh2 [preauth]
+Nov 19 22:44:48 Zero.local sshd[17858]: Disconnecting invalid user test1 121.160.175.134 port 35308: Too many authentication failures [preauth]
+Nov 19 22:44:55 Zero.local sshd[17861]: Invalid user test1 from 121.160.175.134 port 36544
+Nov 19 22:44:56 Zero.local sshd[17861]: Received disconnect from 121.160.175.134 port 36544:11: disconnected by user [preauth]
+Nov 19 22:44:56 Zero.local sshd[17861]: Disconnected from invalid user test1 121.160.175.134 port 36544 [preauth]
+Nov 19 22:45:00 Zero.local sshd[17864]: Invalid user test2 from 121.160.175.134 port 37944
+Nov 19 22:45:01 Zero.local sshd[17864]: error: maximum authentication attempts exceeded for invalid user test2 from 121.160.175.134 port 37944 ssh2 [preauth]
+Nov 19 22:45:01 Zero.local sshd[17864]: Disconnecting invalid user test2 121.160.175.134 port 37944: Too many authentication failures [preauth]
+Nov 19 22:45:06 Zero.local sshd[17867]: Invalid user test2 from 121.160.175.134 port 38920
+Nov 19 22:45:07 Zero.local sshd[17867]: error: maximum authentication attempts exceeded for invalid user test2 from 121.160.175.134 port 38920 ssh2 [preauth]
+Nov 19 22:45:07 Zero.local sshd[17867]: Disconnecting invalid user test2 121.160.175.134 port 38920: Too many authentication failures [preauth]
+Nov 19 22:45:13 Zero.local sshd[17870]: Invalid user test2 from 121.160.175.134 port 40104
+Nov 19 22:45:14 Zero.local sshd[17870]: Received disconnect from 121.160.175.134 port 40104:11: disconnected by user [preauth]
+Nov 19 22:45:14 Zero.local sshd[17870]: Disconnected from invalid user test2 121.160.175.134 port 40104 [preauth]
+Nov 19 22:45:19 Zero.local sshd[17873]: Invalid user contador from 121.160.175.134 port 41306
+Nov 19 22:45:19 Zero.local sshd[17873]: Received disconnect from 121.160.175.134 port 41306:11: disconnected by user [preauth]
+Nov 19 22:45:19 Zero.local sshd[17873]: Disconnected from invalid user contador 121.160.175.134 port 41306 [preauth]
+Nov 19 22:45:26 Zero.local sshd[17876]: Invalid user ubuntu from 121.160.175.134 port 42372
+Nov 19 22:45:27 Zero.local sshd[17876]: error: maximum authentication attempts exceeded for invalid user ubuntu from 121.160.175.134 port 42372 ssh2 [preauth]
+Nov 19 22:45:27 Zero.local sshd[17876]: Disconnecting invalid user ubuntu 121.160.175.134 port 42372: Too many authentication failures [preauth]
+Nov 19 22:45:32 Zero.local sshd[17879]: Invalid user ubuntu from 121.160.175.134 port 43828
+Nov 19 22:45:33 Zero.local sshd[17879]: error: maximum authentication attempts exceeded for invalid user ubuntu from 121.160.175.134 port 43828 ssh2 [preauth]
+Nov 19 22:45:33 Zero.local sshd[17879]: Disconnecting invalid user ubuntu 121.160.175.134 port 43828: Too many authentication failures [preauth]
+Nov 19 22:45:37 Zero.local sshd[17885]: Invalid user ubuntu from 121.160.175.134 port 44974
+Nov 19 22:45:38 Zero.local sshd[17885]: Received disconnect from 121.160.175.134 port 44974:11: disconnected by user [preauth]
+Nov 19 22:45:38 Zero.local sshd[17885]: Disconnected from invalid user ubuntu 121.160.175.134 port 44974 [preauth]
+Nov 19 22:45:40 Zero.local sshd[17882]: Received disconnect from 167.71.32.208 port 44692:11: Bye Bye [preauth]
+Nov 19 22:45:40 Zero.local sshd[17882]: Disconnected from 167.71.32.208 port 44692 [preauth]
+Nov 19 22:45:43 Zero.local sshd[17888]: Invalid user pi from 121.160.175.134 port 45946
+Nov 19 22:45:44 Zero.local sshd[17888]: Received disconnect from 121.160.175.134 port 45946:11: disconnected by user [preauth]
+Nov 19 22:45:44 Zero.local sshd[17888]: Disconnected from invalid user pi 121.160.175.134 port 45946 [preauth]
+Nov 19 22:45:48 Zero.local sshd[17891]: Invalid user baikal from 121.160.175.134 port 47054
+Nov 19 22:45:48 Zero.local sshd[17891]: Received disconnect from 121.160.175.134 port 47054:11: disconnected by user [preauth]
+Nov 19 22:45:48 Zero.local sshd[17891]: Disconnected from invalid user baikal 121.160.175.134 port 47054 [preauth]
+Nov 19 22:47:58 Zero.local sshd[17894]: Invalid user solana from 195.178.110.114 port 37514
+Nov 19 22:47:58 Zero.local sshd[17894]: Connection closed by invalid user solana 195.178.110.114 port 37514 [preauth]
+Nov 19 22:50:58 Zero.local sshd[17898]: Connection closed by authenticating user root 139.19.117.129 port 53810 [preauth]
+Nov 19 22:53:41 Zero.local sshd[17901]: error: kex_exchange_identification: Connection closed by remote host
+Nov 19 22:55:26 Zero.local sshd[17903]: error: kex_exchange_identification: banner line contains invalid characters
+Nov 19 23:00:03 Zero.local sshd[17906]: error: kex_exchange_identification: Connection closed by remote host
+Nov 19 23:01:01 Zero.local CROND[17909]: (root) CMD (run-parts /etc/cron.hourly)
+Nov 19 23:01:01 Zero.local run-parts[17912]: (/etc/cron.hourly) starting 0anacron
+Nov 19 23:01:01 Zero.local run-parts[17918]: (/etc/cron.hourly) finished 0anacron
+Nov 19 23:02:10 Zero.local sudo[17919]:     root : TTY=pts/1 ; PWD=/root ; USER=root ; COMMAND=/bin/nano /etc/ssh/sshd_config
+Nov 19 23:02:10 Zero.local sudo[17919]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 19 23:02:10 Zero.local sudo[17919]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 19 23:04:11 Zero.local sudo[17922]:     root : TTY=pts/0 ; PWD=/var/log ; USER=root ; COMMAND=/bin/nano /etc/logrotate.d/ssh
+Nov 19 23:04:11 Zero.local sudo[17922]: pam_systemd(sudo:session): Cannot create session: Already running in a session or user slice
+Nov 19 23:04:11 Zero.local sudo[17922]: pam_unix(sudo:session): session opened for user root by root(uid=0)
+Nov 19 23:05:23 Zero.local sshd[17739]: Received disconnect from 88.201.181.66 port 56385:11: disconnected by user
+Nov 19 23:05:23 Zero.local sshd[17739]: Disconnected from user root 88.201.181.66 port 56385
+Nov 19 23:05:23 Zero.local sshd[17735]: pam_unix(sshd:session): session closed for user root
+Nov 19 23:05:23 Zero.local sudo[17919]: pam_unix(sudo:session): session closed for user root
+Nov 19 23:05:23 Zero.local systemd[1]: session-9.scope: Succeeded.
+Nov 19 23:05:23 Zero.local systemd-logind[671]: Session 9 logged out. Waiting for processes to exit.
+Nov 19 23:05:23 Zero.local systemd-logind[671]: Removed session 9.
+Nov 19 23:05:43 Zero.local sudo[17922]: pam_unix(sudo:session): session closed for user root
+Nov 19 23:09:39 Zero.local sshd[17931]: Invalid user ether from 195.178.110.114 port 46704
+Nov 19 23:09:39 Zero.local sshd[17931]: Connection closed by invalid user ether 195.178.110.114 port 46704 [preauth]
+Nov 19 23:09:43 Zero.local sshd[17928]: Received disconnect from 167.71.32.208 port 43202:11: Bye Bye [preauth]
+Nov 19 23:09:43 Zero.local sshd[17928]: Disconnected from 167.71.32.208 port 43202 [preauth]
+Nov 19 23:20:45 Zero.local sshd[14139]: Received disconnect from 88.201.181.66 port 51888:11: disconnected by user
+Nov 19 23:20:45 Zero.local sshd[14139]: Disconnected from user root 88.201.181.66 port 51888
+Nov 19 23:20:45 Zero.local sshd[14135]: pam_unix(sshd:session): session closed for user root
+Nov 19 23:20:45 Zero.local systemd[1]: session-8.scope: Succeeded.
+Nov 19 23:20:45 Zero.local systemd-logind[671]: Session 8 logged out. Waiting for processes to exit.
+Nov 19 23:20:45 Zero.local systemd-logind[671]: Removed session 8.
+Nov 19 23:20:55 Zero.local systemd[1]: Stopping User Manager for UID 0...
+Nov 19 23:20:55 Zero.local systemd[14091]: Stopped target Default.
+Nov 19 23:20:55 Zero.local systemd[14091]: Stopped target Basic System.
+Nov 19 23:20:55 Zero.local systemd[14091]: Stopped target Timers.
+Nov 19 23:20:55 Zero.local systemd[14091]: Stopped target Paths.
+Nov 19 23:20:55 Zero.local systemd[14091]: Stopped target Sockets.
+Nov 19 23:20:55 Zero.local systemd[14091]: Closed D-Bus User Message Bus Socket.
+Nov 19 23:20:55 Zero.local systemd[14091]: Reached target Shutdown.
+Nov 19 23:20:55 Zero.local systemd[14091]: Started Exit the Session.
+Nov 19 23:20:55 Zero.local systemd[14091]: Reached target Exit the Session.
+Nov 19 23:20:55 Zero.local systemd[14095]: pam_unix(systemd-user:session): session closed for user root
+Nov 19 23:20:55 Zero.local systemd[1]: user@0.service: Succeeded.
+Nov 19 23:20:55 Zero.local systemd[1]: Stopped User Manager for UID 0.
+Nov 19 23:20:55 Zero.local systemd[1]: Stopping User runtime directory /run/user/0...
+Nov 19 23:20:55 Zero.local systemd[1]: run-user-0.mount: Succeeded.
+Nov 19 23:20:55 Zero.local systemd[1]: user-runtime-dir@0.service: Succeeded.
+Nov 19 23:20:55 Zero.local systemd[1]: Stopped User runtime directory /run/user/0.
+Nov 19 23:20:55 Zero.local systemd[1]: Removed slice User Slice of UID 0.
+Nov 19 23:24:04 Zero.local sshd[17951]: Connection closed by authenticating user root 195.178.110.114 port 46702 [preauth]
+Nov 19 23:29:41 Zero.local sshd[17955]: Accepted publickey for root from 88.201.181.66 port 56585 ssh2: RSA SHA256:dFeG+pNnJlStaUuNPWAsVf1PNscMpq1/ThjpmzLqRoQ
+Nov 19 23:29:41 Zero.local systemd[1]: Created slice User Slice of UID 0.
+Nov 19 23:29:41 Zero.local systemd[1]: Starting User runtime directory /run/user/0...
+Nov 19 23:29:41 Zero.local systemd-logind[671]: New session 10 of user root.
+Nov 19 23:29:41 Zero.local systemd[1]: Started User runtime directory /run/user/0.
+Nov 19 23:29:41 Zero.local systemd[1]: Starting User Manager for UID 0...
+Nov 19 23:29:41 Zero.local systemd[17960]: pam_unix(systemd-user:session): session opened for user root by (uid=0)
+Nov 19 23:29:41 Zero.local systemd[17960]: Reached target Paths.
+Nov 19 23:29:41 Zero.local systemd[17960]: Reached target Timers.
+Nov 19 23:29:41 Zero.local systemd[17960]: Starting D-Bus User Message Bus Socket.
+Nov 19 23:29:41 Zero.local systemd[17960]: Listening on D-Bus User Message Bus Socket.
+Nov 19 23:29:41 Zero.local systemd[17960]: Reached target Sockets.
+Nov 19 23:29:41 Zero.local systemd[17960]: Reached target Basic System.
+Nov 19 23:29:41 Zero.local systemd[17960]: Reached target Default.
+Nov 19 23:29:41 Zero.local systemd[17960]: Startup finished in 45ms.
+Nov 19 23:29:41 Zero.local systemd[1]: Started User Manager for UID 0.
+Nov 19 23:29:41 Zero.local systemd[1]: Started Session 10 of user root.
+Nov 19 23:29:41 Zero.local sshd[17955]: pam_unix(sshd:session): session opened for user root by (uid=0)
